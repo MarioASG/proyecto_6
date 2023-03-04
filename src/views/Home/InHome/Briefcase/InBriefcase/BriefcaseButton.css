@@ -1,0 +1,32 @@
+.briefcase-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    border-style: double;
+    background: #75018f;
+    box-shadow: 0 0 20px #ff00ff,
+                0 0 40px #ff00ff, 
+                0 0 60px #ff00ff,
+                0 0 80px #ff00ff;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .briefcase-button:hover {
+    background-color: #ff00ff;
+    box-shadow: 0 0 5px #ff00ff,
+                0 0 10px #ff00ff,
+                0 0 15px #ff00ff, 
+                0 0 20px #ff00ff;
+  }
+  
+  .briefcase-button:active {
+    transform: scale(0.95);
+  }
+
+  .briefcasebutton {
+    margin-right: 200px;
+  }
+  

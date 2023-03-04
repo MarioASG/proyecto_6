@@ -1,7 +1,17 @@
 .briefcase{
-    background-image: url(https://rare-gallery.com/uploads/posts/523639-minimalism-texture.jpg);
+    background-image: url(https://images6.alphacoders.com/939/thumb-1920-939537.jpg);
     background-position: center;
     height: 100vb;
     margin-left: -8px;
     margin-right: -8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .briefcaseRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
