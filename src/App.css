@@ -1,1 +1,48 @@
+@font-face {
+    font-family: 'Esoris';
+    src: url('./fonts/Esoris.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 
+@font-face {
+    font-family: 'Waves Chunky CPC';
+    src: url('./fonts/WavesChunkyCPC-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Heatwave';
+    src: url('./fonts/Heatwave.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Overdrive Avenue';
+    src: url('./fonts/Overdrive_Avenue.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Neon Retro';
+    src: url('./fonts/NeonRetro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Night Drive';
+    src: url('./fonts/NightDrive.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Hotliner';
+    src: url('./fonts/Hotliner.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

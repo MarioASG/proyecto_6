@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import audioFile from '../../../../songs/traveling.wav';
 import './SongPlayer.css'
 
@@ -7,7 +7,13 @@ const SongPlayer = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
-  const [volume, setVolume] = useState(0.5);
+  const [volume, setVolume] = useState(0.1);
+
+  useEffect(() => {
+    audioPlayer.current.volume = volume;
+    audioPlayer.current.play();
+    setIsPlaying(false);
+  }, []);
 
   const togglePlay = () => {
     if (isPlaying) {

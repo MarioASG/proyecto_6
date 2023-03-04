@@ -1,6 +1,33 @@
 .about{
-    background: #313131;
+    background-image: url(https://wallpaper.dog/large/20483572.jpg);
+    background-position: center;
     height: 100vb;
     margin-left: -8px;
     margin-right: -8px;
+}
+.aboutIN{
+    display: grid;
+    grid-template-areas:
+    'a a d'
+    'b c d';
+    padding: 25px 25px;
+    align-items: center;
+    width: 1600px;
+    margin-left: 40px;
+}
+
+.title{
+    grid-area: a;
+}
+
+.inAbout{
+    grid-area: b;
+}
+
+.experience{
+    grid-area: c;
+}
+
+.achievements{
+    grid-area: d;
 }

@@ -1,0 +1,59 @@
+.achievements{
+    border-style: double;
+    border-radius: 20px;
+    color: aliceblue;
+    padding: 15px 15px;
+    height: 857px;
+}
+
+.achievements h2{
+    padding-left: 15px;
+    font-family: 'Overdrive Avenue';
+    font-size: 20px;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom, #0062ff, #0095ff, #ffdcf0);
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.281), 
+                 0px 8px 13px rgba(0,0,0,0.1), 
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.achievement-project{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.achievement-block{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.achievements img{
+    width: 40px;
+    height: 40px;
+}
+
+.achievement-block h3{
+    margin-top: 1px;
+    font-family: 'Esoris';
+    font-size: 25px;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom, #0062ff, #0095ff, #00bbff, #00ddff);
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.281), 
+                 0px 8px 13px rgba(0,0,0,0.1), 
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.achievement-block p{
+    font-family: 'Night Drive';
+    width: 382px;
+    color: aliceblue;
+    font-size: 15px;
+    letter-spacing: 2px;    
+}
+
