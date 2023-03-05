@@ -7,7 +7,7 @@ import Experience from './InAbout/Experience';
 
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about' id='about-section'>
       <div className='aboutIN'>
 
       <Title/>

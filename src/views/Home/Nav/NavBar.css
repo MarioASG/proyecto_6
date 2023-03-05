@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    gap: 100px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: background-color 0.2s ease-in-out;
+    background-image: linear-gradient(to bottom, #0062ff50, #0095ff3a, #c5004f41, #ff009031, #ffdcf03a);
+}
+
+.navbar-scrolled {
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.link{
+    font-family: 'Neon Retro';
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    color: transparent;
+    letter-spacing: 10px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom, #0062ff, #0095ff, #c5004f, #ff0090, #ffdcf0);
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.281), 
+                 0px 8px 13px rgba(0,0,0,0.1), 
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.link:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}

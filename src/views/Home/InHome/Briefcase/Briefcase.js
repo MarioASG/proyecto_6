@@ -6,7 +6,7 @@ import BriefcaseButton from './InBriefcase/BriefcaseButton';
 
 const Briefcase = () => {
   return (
-    <div className='briefcase'>
+    <div className='briefcase' id='briefcase-section'>
       <div className='briefcaseRow'>
       <MyPortfolio />
       <BriefcaseButton/>

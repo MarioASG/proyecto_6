@@ -6,7 +6,7 @@ import { faInstagram, faFacebook, faLinkedin, faSpotify, faTiktok, faYoutube} fr
 
 const Contact = () => {
   return (
-    <div className='contact'>
+    <div className='contact' id='contact-section'>
       <div className='contactIN'>
         
       <h1>CONTÁCTAME</h1>

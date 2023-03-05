@@ -5,9 +5,10 @@ import About from './InHome/About/About';
 import Contact from './InHome/Contact/Contact';
 
 
+
 const Home = () => {
   return (
-    <div>
+    <div id='home-section'>
       <Front/>
       <Briefcase/>
       <About/>
