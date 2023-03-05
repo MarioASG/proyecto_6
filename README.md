@@ -1,5 +1,5 @@
 Link de la aplicación: https://mi-portafolio-mario-sanhueza.netlify.app/
-# Proyecto_6
+# Proyecto_6: Portafolio
 
 Este proyecto corresponde a mi portafolio personal, ambientado en lo que más me gusta, el Synthwave.
 
