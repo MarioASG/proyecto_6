@@ -1,0 +1,33 @@
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 200px;
+    text-decoration: none;
+    border-radius: 50px;
+    border-style: double;
+    background: #01338f;
+    box-shadow: 0 0 20px #011b8f,
+                0 0 40px #011b8f, 
+                0 0 60px #013c8f,
+                0 0 80px #015d8f;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .contact-button:hover {
+    background-color: #009dff;
+    box-shadow: 0 0 5px #009dff,
+                0 0 10px #009dff,
+                0 0 15px #009dff, 
+                0 0 20px #009dff;
+  }
+  
+  .contact-button:active {
+    transform: scale(0.95);
+  }
+
+  .contactbutton {
+    margin-right: 200px;
+  }
+  

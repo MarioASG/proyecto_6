@@ -1,9 +1,11 @@
 .about{
     background-image: url(https://wallpaper.dog/large/20483572.jpg);
     background-position: center;
-    height: 100vb;
+    min-height: 100vh;
+    height: 950px;
     margin-left: -8px;
     margin-right: -8px;
+    
 }
 .aboutIN{
     display: grid;

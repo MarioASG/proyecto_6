@@ -1,14 +1,11 @@
-@font-face {
-  font-family: 'ARX ArcadeMachine';
-  src: url('../../../../../src/fonts/AXR\ ArcadeMachine.otf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-body{
+  .front{
     background-image: url(https://wallpaper.dog/large/10818955.jpg);
     background-position: center;
-    height: 100vh;
+    min-height: 100vh;
+    height: 950px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
   }
 
   .helloFront{

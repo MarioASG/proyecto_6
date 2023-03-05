@@ -2,7 +2,7 @@ import React from 'react';
 import Front from '../Home/InHome/Front/Front';
 import Briefcase from './InHome/Briefcase/Briefcase';
 import About from './InHome/About/About';
-import Skills from './InHome/Skills/Skills';
+import Contact from './InHome/Contact/Contact';
 
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
       <Front/>
       <Briefcase/>
       <About/>
-      <Skills/>
+      <Contact/>
     </div>
   )
 }

@@ -1,0 +1,77 @@
+.contact{
+    background-image: url(https://images5.alphacoders.com/100/1001614.jpg);
+    /* background: #b71111; */
+    background-position: center;
+    min-height: 100vh;
+    height: 950px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+}
+
+.contactIN{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.contact h1{
+    font-family: 'Esoris';
+    padding-left: 10px;
+    font-size: 80px;
+    display: flex;
+    color: transparent;
+    letter-spacing: 10px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom, #0062ff, #0095ff, #c5004f, #ff0090, #ffdcf0);
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.281), 
+                 0px 8px 13px rgba(0,0,0,0.1), 
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.contact h3{
+    width: 600px;
+    font-family: 'Esoris';
+    text-align: center;
+    font-size: 30px;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom, #0062ff, #0095ff, #00bbff, #00ddff);
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.281), 
+                 0px 8px 13px rgba(0,0,0,0.1), 
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.contact p{
+    font-family: 'Neon Retro';
+    text-align: center;
+    display: flex;
+    font-weight: bolder;
+    width: 700px;
+    font-size: 32px;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom, #0062ff, #0095ff, #c5004f, #ff0090, #ffdcf0);
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.281), 
+                 0px 8px 13px rgba(0,0,0,0.1), 
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.iconsContact{
+    display: flex;
+    gap: 30px;
+}
+
+.iconsContact a{
+    color: #0062ff;
+    font-size: 30px;
+}
+
+.iconContact:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+}

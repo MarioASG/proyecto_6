@@ -1,12 +1,14 @@
 .briefcase{
     background-image: url(https://images6.alphacoders.com/939/thumb-1920-939537.jpg);
     background-position: center;
-    height: 100vb;
+    min-height: 100vh;
+    height: 950px;
     margin-left: -8px;
     margin-right: -8px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 50px;
   }
   
   .briefcaseRow{
