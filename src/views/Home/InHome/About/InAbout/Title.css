@@ -11,7 +11,6 @@
 
 .title h1{
     font-family: 'Overdrive Avenue';
-    display: flex;
     font-size: 48px;
     color: transparent;
     background-clip: text;
@@ -34,4 +33,45 @@
                  0px 18px 23px rgba(0,0,0,0.1);
     font-size: 48px;
     letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1450px){
+    .title{
+        width: 830px;
+        height: 120px;
+    }
+    .titleIN h1{
+        font-size: 40px;
+        padding-top: 25px;
+    }
+    .title p{
+        font-size: 38px;
+        }
+}
+
+@media screen and (max-width: 990px){
+    .title{
+        width: 630px;
+        height: 120px;
+    }
+    .titleIN h1{
+        font-size: 40px;
+        padding-top: 25px;
+    }
+    .title p{
+        font-size: 35px;
+        }
+@media screen and (max-width: 770px){
+    .title{
+        width: 380px;
+        height: 120px;
+        }
+    .titleIN h1{
+        font-size: 28px;
+        padding-top: 25px;
+    }
+    .title p{
+    font-size: 30px;
+    }
+    }
 }

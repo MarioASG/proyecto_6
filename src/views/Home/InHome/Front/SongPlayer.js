@@ -58,8 +58,10 @@ const SongPlayer = () => {
         onLoadedData={handleLoadedData}
       />
       <div className="song-controls">
+        <div className='song-controls-buttons'>
         <button onClick={togglePlay}>{isPlaying ? 'Pause' : 'Play'}</button>
         <button onClick={stopPlay}>Stop</button>
+        </div>
         <input
           type="range"
           min="0"

@@ -32,7 +32,6 @@
 .experience-work{
     padding-left: 15px;
     height: 140px;
-    width: 520px;
 }
 
 .experience-block h2{
@@ -62,4 +61,62 @@
     color: aliceblue;
     font-size: 15px;
     letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1600px){
+    .experience-block h2{
+        width: 240px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1450px){
+    .experience{
+        width: 495px;
+        margin-left: -435px;
+    }
+    .experience-block h2{
+        width: 220px;
+        font-size: 15px;
+    }
+    .experience-block h3{
+        font-size: 15px;
+    }
+    .experience-block h4{
+        font-size: 13px;
+    }
+    .experience-block p{
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .experience{
+        width: 630px;
+        margin-left: 0;
+    }
+    .experience-block h2{
+        font-size: 19px;
+    }
+  }
+
+@media screen and (max-width: 770px){
+    .experience{
+        width: 380px;
+    }
+    .experience-block h2{
+        width: 240px;
+        font-size: 13px;
+    }
+    .experience-block h3{
+        font-size: 13px;
+    }
+    .experience-block h4{
+        font-size: 12px;
+    }
+    .experience-block p{
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
 }

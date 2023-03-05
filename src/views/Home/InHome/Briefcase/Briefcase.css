@@ -5,6 +5,8 @@
     height: 950px;
     margin-left: -8px;
     margin-right: -8px;
+    margin-top: -8px;
+    margin-bottom: -8px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,4 +18,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+  }
+
+  @media screen and (max-width: 770px){
+      .briefcaseRow{
+        flex-direction: column;
+        align-items: first baseline;
+      }
   }

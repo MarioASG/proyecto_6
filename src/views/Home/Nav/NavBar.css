@@ -37,3 +37,33 @@
     transform: scale(1.1);
     transition: 0.2s;
 }
+
+@media screen and (max-width: 1450px){
+    .navbar{
+        gap: 70px;
+    }
+    .link{
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .navbar{
+        gap: 50px;
+    }
+    .link{
+        font-size: 22px;
+        letter-spacing: 5px;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .navbar{
+        gap: 30px;
+    }
+    .link{
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+}

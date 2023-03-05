@@ -1,10 +1,14 @@
 .about{
-    background-image: url(https://wallpaperaccess.com/full/5046361.jpg);
+    background-image: url(https://preview.redd.it/atyw9326due31.jpg?auto=webp&s=7ada0b5cfffd940a11b0f19ed2c65c5397d1382e);
     background-position: center;
     min-height: 100vh;
     height: 950px;
     margin-left: -8px;
     margin-right: -8px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    margin: auto;
+
     
 }
 .aboutIN{
@@ -14,8 +18,7 @@
     'b c d';
     padding: 25px 25px;
     align-items: center;
-    width: 1600px;
-    margin-left: 40px;
+    width: 1500px;
 }
 
 .title{
@@ -33,3 +36,45 @@
 .achievements{
     grid-area: d;
 }
+
+@media screen and (max-width: 1600px){
+    .aboutIN{
+        width: 1300px;
+    }
+}
+
+@media screen and (max-width: 1450px){
+    .aboutIN{
+        /* background: #f7eb00; */
+        grid-template-areas:
+        'a a'
+        'b c'
+        'd d';
+    }
+    .about{
+        height: 1150px;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .aboutIN{
+        /* background: #00c2f7; */
+        grid-template-areas:
+        'a'
+        'b'
+        'c'
+        'd';
+    }
+    .about{
+        height: 1455px;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .about{
+        height: 1585px;
+    }
+}
+
+
+

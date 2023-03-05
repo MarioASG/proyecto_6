@@ -1,6 +1,7 @@
 .briefcase-button {
     display: inline-block;
     padding: 10px 20px;
+    text-align: center;
     font-size: 20px;
     color: #fff;
     text-decoration: none;
@@ -29,4 +30,20 @@
   .briefcasebutton {
     margin-right: 200px;
   }
-  
+
+  @media screen and (max-width: 1450px){
+    .briefcase-button {
+      font-size: 20px;
+      padding: 10px 30px;
+    }
+    .briefcasebutton {
+      margin-right: 200px;
+    }
+  }
+
+  @media screen and (max-width: 770px){
+.briefcasebutton {
+      padding-left: 100px;
+      margin-right: 1px;
+    }
+  }

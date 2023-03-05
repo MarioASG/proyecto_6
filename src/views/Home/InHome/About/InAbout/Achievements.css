@@ -21,8 +21,10 @@
 
 .achievement-project{
     display: flex;
-    flex-direction: column;
     margin-left: 20px;
+    padding-top: 25px;
+    align-items: center;
+    height: 70px;
 }
 
 .achievement-block{
@@ -32,8 +34,8 @@
 }
 
 .achievements img{
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
 }
 
 .achievement-block h3{
@@ -49,11 +51,79 @@
                  0px 18px 23px rgba(0,0,0,0.1);
 }
 
-.achievement-block p{
-    font-family: 'Night Drive';
-    width: 382px;
-    color: aliceblue;
-    font-size: 15px;
-    letter-spacing: 2px;    
+@media screen and (max-width: 1450px){
+    .achievements{
+        width: 830px;
+        height: 250px;
+    }
+    .achievement-block h3{
+    font-size: 20px;
+    }
+    .achievementsIN{
+        display: grid;
+        grid-template-areas:
+        'a b c d'
+        'e f g h';
+    }
+    #skill1{
+        grid-area: a;
+    }
+    #skill2{
+        grid-area: b;
+    }
+    #skill3{
+        grid-area: c;
+    }
+    #skill4{
+        grid-area: d;
+    }
+    #skill5{
+        grid-area: e;
+    }
+    #skill6{
+        grid-area: f;
+    }
+    #skill7{
+        grid-area: g;
+    }
+    #skill8{
+        grid-area: h;
+    }
 }
 
+@media screen and (max-width: 990px){
+    .achievements{
+        width: 630px;
+        height: 320px;
+    }
+    .achievement-block h3{
+    font-size: 18px;
+    }
+    .achievementsIN{
+        grid-template-areas:
+        'a b c'
+        'd e f'
+        'g h h';
+    }
+}
+
+@media screen and (max-width: 770px){
+    .achievements{
+        width: 380px;
+        height: 400px;
+    }
+    .achievement-block h3{
+    font-size: 18px;
+    }
+    .achievements img{
+        width: 40px;
+        height: 40px;
+    }
+    .achievementsIN{
+        grid-template-areas:
+        'a b'
+        'c d'
+        'e f'
+        'g h';
+    }
+}

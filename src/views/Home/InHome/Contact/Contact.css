@@ -1,12 +1,13 @@
 .contact{
     background-image: url(https://images5.alphacoders.com/100/1001614.jpg);
-    /* background: #b71111; */
     background-position: center;
     min-height: 100vh;
     height: 950px;
     margin-left: -8px;
     margin-right: -8px;
     margin-bottom: -8px;
+    margin-top: -8px;
+
 }
 
 .contactIN{
@@ -74,4 +75,18 @@
 .iconContact:hover {
     transform: scale(1.5);
     transition: 0.1s;
+}
+
+@media screen and (max-width: 770px){
+    .contact h1{
+    font-size: 45px;
+    }
+    .contact h3{
+    font-size: 30px;
+    width: 450px;
+    }
+    .contact p{
+    font-size: 30px;
+    width: 450px;
+    }
 }
