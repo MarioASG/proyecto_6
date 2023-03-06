@@ -97,3 +97,23 @@
         
     }
 }
+
+@media screen and (max-width: 550px){
+    .contact h1{
+        font-size: 32px;
+        }
+        .contact h3{
+        font-size: 25px;
+        width: 350px;
+        }
+        .contact p{
+        font-size: 25px;
+        width: 350px;
+        }
+        .contactbuttonAll{
+            width: 100px;
+        }
+        .iconsContact a{
+            font-size: 25px;
+        }
+}

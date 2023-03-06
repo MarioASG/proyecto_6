@@ -120,3 +120,18 @@
         letter-spacing: 1px;
     }
 }
+
+@media screen and (max-width: 550px){
+    .experience{
+        display: flex;
+        flex-direction: column;
+        width: 315px;
+        margin-left: -20px;
+        height: 900px;
+        gap: 60px;
+    }
+    .experience-block h2{
+        width: 330px;
+        font-size: 13px;
+    }
+}

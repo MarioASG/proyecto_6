@@ -47,3 +47,11 @@
       margin-right: 1px;
     }
   }
+
+  @media screen and (max-width: 550px){
+    .briefcase-button {
+      font-size: 15px;
+      margin-left: 15px;
+      padding: 10px 10px;
+    }
+  }

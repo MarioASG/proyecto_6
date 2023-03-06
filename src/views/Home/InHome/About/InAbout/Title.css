@@ -75,3 +75,18 @@
     }
     }
 }
+
+@media screen and (max-width: 550px){
+    .title{
+        width: 315px;
+        height: 120px;
+        margin-left: -20px;
+        }
+    .titleIN h1{
+        font-size: 25px;
+        padding-top: 25px;
+    }
+    .title p{
+    font-size: 30px;
+    }
+}

@@ -1,8 +1,8 @@
 .about{
-    background-image: url(https://preview.redd.it/atyw9326due31.jpg?auto=webp&s=7ada0b5cfffd940a11b0f19ed2c65c5397d1382e);
+    background-image: url(https://wallpaperaccess.com/full/670445.jpg);
     background-position: center;
     min-height: 100vh;
-    height: 950px;
+    height: 100px;
     margin-left: -8px;
     margin-right: -8px;
     margin-top: -8px;
@@ -76,6 +76,16 @@
     }
     .aboutIN{
         width: 420px;
+
+    }
+}
+
+@media screen and (max-width: 550px){
+    .about{
+        height: 1870px;
+    }
+    .aboutIN{
+        width: 310px;
     }
 }
 

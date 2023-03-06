@@ -67,3 +67,9 @@
         letter-spacing: 2px;
     }
 }
+
+@media screen and (max-width: 450px){
+    .navbar{
+        gap: 15px;
+    }
+}

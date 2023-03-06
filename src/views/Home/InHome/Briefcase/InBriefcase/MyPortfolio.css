@@ -76,3 +76,21 @@
         font-size: 15px;
     }
 }
+
+@media screen and (max-width: 550px){
+    .MyPortfolio{
+        margin-left: 5px;
+        margin-top: 2px;
+        width: 350px;
+        padding-bottom: 50px;
+    }
+    .MyPortfolio h1{
+        font-size: 35px;
+        padding-left: 40px;
+    }
+    .MyPortfolio p{
+        font-size: 15px;
+        width: 345px;
+        text-align: center;
+    }
+}

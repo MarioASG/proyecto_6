@@ -127,3 +127,18 @@
         'g h';
     }
 }
+
+@media screen and (max-width: 550px){
+    .achievements{
+        width: 315px;
+        height: 400px;
+        margin-left: -20px;
+    }
+    .achievement-block h3{
+    font-size: 14px;
+    }
+    .achievements img{
+        width: 35px;
+        height: 35px;
+    }
+}
