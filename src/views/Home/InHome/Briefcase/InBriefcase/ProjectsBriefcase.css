@@ -11,7 +11,7 @@
 .imgProjects{
     width: 300px;
     border-radius: 20px;
-    box-shadow: 0 50px 80px #071e54;
+    box-shadow: 0 5px 10px #071e54;
 }
 
 .imgProjects:hover{
