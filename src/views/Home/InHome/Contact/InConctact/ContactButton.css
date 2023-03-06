@@ -31,4 +31,8 @@
   .contactbutton {
     margin-right: 200px;
   }
+
+  @media screen and (max-width: 770px){
+
+}
   

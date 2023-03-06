@@ -7,8 +7,6 @@
     margin-right: -8px;
     margin-top: -8px;
     margin-bottom: -8px;
-    margin: auto;
-
     
 }
 .aboutIN{
@@ -39,17 +37,17 @@
 
 @media screen and (max-width: 1600px){
     .aboutIN{
-        width: 1300px;
+        width: 1350px;
     }
 }
 
 @media screen and (max-width: 1450px){
     .aboutIN{
-        /* background: #f7eb00; */
         grid-template-areas:
         'a a'
         'b c'
         'd d';
+        width: 900px;
     }
     .about{
         height: 1150px;
@@ -64,7 +62,9 @@
         'b'
         'c'
         'd';
+        width: 690px;
     }
+    
     .about{
         height: 1455px;
     }
@@ -73,6 +73,9 @@
 @media screen and (max-width: 770px){
     .about{
         height: 1585px;
+    }
+    .aboutIN{
+        width: 420px;
     }
 }
 

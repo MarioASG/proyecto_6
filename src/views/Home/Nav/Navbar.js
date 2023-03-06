@@ -21,7 +21,7 @@ const NavBar = () => {
 
   return (
     <div className={`navbar ${scrolled ? "navbar-scrolled" : ""}`}>
-      <div className="tata"></div>
+      <div></div>
         <Link to="home-section" smooth={true} duration={500} className="link" >
         Home
         </Link>
