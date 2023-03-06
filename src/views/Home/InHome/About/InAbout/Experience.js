@@ -14,7 +14,7 @@ const Experience = () => {
             <h3>SGS INGENIERÍA</h3>
             <h4>Ingeniero de Proyectos</h4>
             <p>Ingeniero civil metalúrgico enfocado en el análisis de proyectos para diferentes compañías mineras, 
-               reconociendo los riesgos de cada uno, automatizando y optimizando matrices.</p>
+               reconociendo los riesgos de cada uno, desarrolando, automatizando y optimizando las matrices de riesgo.</p>
         </div>
         </div>
 
